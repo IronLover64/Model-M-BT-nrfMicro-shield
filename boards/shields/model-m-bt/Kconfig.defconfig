@@ -1,0 +1,6 @@
+if SHIELD_MY_BOARD
+
+config IBM_Model_M
+    default "My Board"
+
+endif
