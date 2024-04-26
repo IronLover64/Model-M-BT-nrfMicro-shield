@@ -1,0 +1,11 @@
+file_format: "1"
+id: nrfmicro_model_m
+name: model-m-bt
+type: shield
+url: https://github.com/IronLover64/Model-M-BT-nrfMicro-shield
+requires: [nrf_model_m]
+exposes: []
+features:
+  - keys
+  - lock lights
+siblings:
