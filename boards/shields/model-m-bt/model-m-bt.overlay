@@ -39,10 +39,10 @@
             , <&gpio0 28 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&gpio0 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&gpio0 26 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&gpio0 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            //, <&gpio0 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         
             , <&gpio1 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&gpio1 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio1 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>//
             ;
     };
 };
