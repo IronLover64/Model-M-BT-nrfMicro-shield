@@ -59,22 +59,22 @@ RC(2,0)        RC(0,15)                           RC(7,6)                    RC(
             , <&gpio1 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>//
             ;
         col-gpios
-            = <&gpio1 9 GPIO_ACTIVE_HIGH>
-            , <&gpio0 1 GPIO_ACTIVE_HIGH>
-            , <&gpio0 0 GPIO_ACTIVE_HIGH>
-            , <&gpio0 9 GPIO_ACTIVE_HIGH>
-            , <&gpio0 13 GPIO_ACTIVE_HIGH>
-            , <&gpio1 6 GPIO_ACTIVE_HIGH>
-            , <&gpio1 4 GPIO_ACTIVE_HIGH>
-            , <&gpio1 2 GPIO_ACTIVE_HIGH>
-            , <&gpio1 0 GPIO_ACTIVE_HIGH>
-            , <&gpio0 22 GPIO_ACTIVE_HIGH>
-            , <&gpio0 20 GPIO_ACTIVE_HIGH>
-            , <&gpio0 17 GPIO_ACTIVE_HIGH>
-            , <&gpio0 15 GPIO_ACTIVE_HIGH>
-            , <&gpio0 7 GPIO_ACTIVE_HIGH>
-            , <&gpio0 12 GPIO_ACTIVE_HIGH>
-            , <&gpio0 8 GPIO_ACTIVE_HIGH>
+            = <&gpio1 9 GPIO_OPEN_DRAIN>
+            , <&gpio0 1 GPIO_OPEN_DRAIN>
+            , <&gpio0 0 GPIO_OPEN_DRAIN>
+            , <&gpio0 9 GPIO_OPEN_DRAIN>
+            , <&gpio0 13 GPIO_OPEN_DRAIN>
+            , <&gpio1 6 GPIO_OPEN_DRAIN>
+            , <&gpio1 4 GPIO_OPEN_DRAIN>
+            , <&gpio1 2 GPIO_OPEN_DRAIN>
+            , <&gpio1 0 GPIO_OPEN_DRAIN>
+            , <&gpio0 22 GPIO_OPEN_DRAIN>
+            , <&gpio0 20 GPIO_OPEN_DRAIN>
+            , <&gpio0 17 GPIO_OPEN_DRAIN>
+            , <&gpio0 15 GPIO_OPEN_DRAIN>
+            , <&gpio0 7 GPIO_OPEN_DRAIN>
+            , <&gpio0 12 GPIO_OPEN_DRAIN>
+            , <&gpio0 8 GPIO_OPEN_DRAIN>
             ;
     };
 
