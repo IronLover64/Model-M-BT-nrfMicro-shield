@@ -1,5 +1,5 @@
-identifier: nice60
-name: nice!60
+identifier: model-m-bt
+name: model-m-nrf
 type: mcu
 arch: arm
 toolchain:
