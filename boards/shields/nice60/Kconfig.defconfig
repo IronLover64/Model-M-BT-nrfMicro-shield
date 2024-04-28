@@ -1,7 +1,7 @@
 # Copyright (c) 2021 Nick Winans
 # SPDX-License-Identifier: MIT
 
-if model-m-nrf
+if BOARD_MODEL_M
 
 config ZMK_KEYBOARD_NAME
     default "model-m-bt"
@@ -16,4 +16,4 @@ endif # USB_DEVICE_STACK
 config BT_CTLR
     default BT
 
-endif # model-m-nrf
+endif # BOARD_MODEL_M
